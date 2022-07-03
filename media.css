@@ -1,0 +1,183 @@
+body {
+    background-color: transparent;
+    color: black;
+}
+
+
+@media screen and (max-width: 992px) {
+    /* body {
+        background-color: tr;
+        color: white;
+    } */
+
+    .navbar .navbar-expand .navbar-nav {
+
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        padding-left: 0;
+        display: flex;
+    }
+
+    .navbar.scroll {
+        background: blueviolet;
+    }
+
+    .nav-item {
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        color: #fff !important;
+        /* margin-left: 3vw; */
+        /* transition: 0.5s; */
+        /* border-radius: 50px; */
+        text-transform: capitalize;
+        cursor: pointer;
+        /* font-size: 4px; */
+        padding-left: 0;
+        margin-left: 45vw;
+
+    }
+
+    .navbar-brand {
+        position: absolute;
+        font-family: Impact;
+        /* letter-spacing: 2px; */
+        background: linear-gradient(100deg, pink, #ff0000, #fff, green, red);
+        background-repeat: repeat;
+        /* background-color: #fff; */
+        /* background-size: 80%; */
+        animation: animate 25s infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+        font-weight: bold;
+        font-style: italic;
+        padding-left: 0;
+        padding-right: 200px;
+        font-size: 27px;
+        text-transform: uppercase;
+        margin-right: 45vw;
+
+
+    }
+
+    .sachin {
+        font-size: 12px;
+        margin-left: 27vw;
+        font-style: italic;
+        font-weight: bold;
+        font-display: inherit;
+        cursor: pointer;
+        background: whitesmoke;
+        color: black;
+        border-radius: 10px;
+        padding: 4px;
+    }
+
+    .event .col-sm-5 {
+        /* margin-bottom: 200px !important; */
+        margin-bottom: 23vh !important;
+        box-sizing: unset;
+    }
+
+    .event-content a {
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-top: 10px !important;
+        text-align: center;
+        margin-left: 20px;
+        text-align-last: center;
+    }
+
+    .pri{
+        margin: 0;
+        padding: 0;
+        text-align: center;
+       display: none;
+       visibility: hidden;
+    } 
+
+    .col-sm-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        min-width: 130%;
+    }
+    .offset-sm-1 {
+        margin-left: 0;
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    body {
+        /* background-color: wheat;
+        color: white; */
+    }
+
+    .navbar .navbar-expand .navbar-nav {
+
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        padding-left: 0;
+        display: flex;
+    }
+
+    .navbar.scroll {
+        background-color: aqua;
+    }
+
+    .nav-item {
+        font-weight: bold;
+        font-style: italic;
+        text-align: center;
+        color: #fff !important;
+        /* margin-left: 3vw; */
+        /* transition: 0.5s; */
+        /* border-radius: 50px; */
+        text-transform: capitalize;
+        cursor: pointer;
+        /* font-size: 4px; */
+        padding-left: 0;
+        margin-left: 30vw;
+
+    }
+
+    .navbar-brand {
+        position: absolute;
+        font-family: Impact;
+        /* letter-spacing: 2px; */
+        background: linear-gradient(100deg, pink, #ff0000, #fff, green, red);
+        background-repeat: repeat;
+        /* background-color: #fff; */
+        /* background-size: 80%; */
+        animation: animate 25s infinite;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: rgba(255, 255, 255, 0);
+        font-weight: bold;
+        font-style: italic;
+        padding-left: 0;
+        padding-right: 200px;
+        font-size: 10px;
+        text-transform: uppercase;
+        margin-right: 50vh;
+
+
+    }
+
+    .sachin {
+        font-size: 12px;
+        margin-left: 27vw;
+        font-style: italic;
+        font-weight: bold;
+        font-display: inherit;
+        cursor: pointer;
+        background: whitesmoke;
+        color: black;
+        border-radius: 10px;
+        padding: 4px;
+    }
+}
